@@ -1,4 +1,4 @@
 package base;
 
-public class Catalog {
+public class GourmetCoffeeSystem{
 }
