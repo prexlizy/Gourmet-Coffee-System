@@ -28,4 +28,10 @@ public class CoffeeAccessory {
     public void setPrice(double newPrice) {
         price = newPrice;
     }
+    public boolean eaquals(Object object){
+        return object instanceof CoffeeAccessory && getCode().equals(((CoffeeAccessory)object).getCode());
+    }
+    public String toString(){
+        return getCode()+"_"+getDescription()+"_"+getPrice();
+    }
 }
