@@ -4,7 +4,11 @@ public class CoffeeAccessory {
     static String code = "";
     static String description = "";
     static Double price = 0.00;
-
+    public CoffeeAccessory(String inicode,String inidescription,Double iniprice){
+        this.code=inicode;
+        this.description=inidescription;
+        this.price=iniprice;
+    }
     public static String getCode() {
         return code;
     }
